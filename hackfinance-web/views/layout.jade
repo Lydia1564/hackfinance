@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(style='float:left')
+      a(href='/') Home
+    div(style='float:right')
+      a(href='/register',style='margin:10px;') Register
+      a(href='/signin',style='margin:10px;') Sign in
+      a(href='/signout',style='margin:10px;') Sign out
+    block content

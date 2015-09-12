@@ -1,0 +1,17 @@
+extends ../layout
+block content
+    form(name="login",action="/apis/login",method="post")
+        h1 Register
+        div
+            p
+                label(style='padding-right:50px') Username or e-mail
+                input(type='text',name='user',
+                placeholder='username@example.com')
+            p
+                label(style='padding-right:110px') Password
+                input(type='password',name='passwd')
+        p
+            span(style='padding-right:260px')
+            input(type='submit',name='submiy',value='Sign Up')
+                
+
